@@ -94,10 +94,9 @@ public class MainActivity extends Activity
 				return groupPosition;
 			}
 			// 该方法决定每个组选项的外观
+
 			@Override
-			public View getGroupView(int groupPosition, boolean isExpanded,
-									 View convertView, ViewGroup parent)
-			{
+			public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
 				LinearLayout ll = new LinearLayout(MainActivity.this);
 				ll.setOrientation(0);
 				ImageView logo = new ImageView(MainActivity.this);
@@ -108,6 +107,7 @@ public class MainActivity extends Activity
 				ll.addView(textView);
 				return ll;
 			}
+
 			@Override
 			public boolean isChildSelectable(int groupPosition,
 											 int childPosition)

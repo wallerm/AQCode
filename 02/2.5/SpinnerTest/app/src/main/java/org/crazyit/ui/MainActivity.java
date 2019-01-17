@@ -21,7 +21,7 @@ public class MainActivity extends Activity
 		String[] arr = { "孙悟空", "猪八戒", "唐僧" };
 		// 创建ArrayAdapter对象
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-			android.R.layout.simple_list_item_multiple_choice, arr);
+			android.R.layout.simple_list_item_activated_1, arr);
 		// 为Spinner设置Adapter
 		spinner.setAdapter(adapter);
 	}

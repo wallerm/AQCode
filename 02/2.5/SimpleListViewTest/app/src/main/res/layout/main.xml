@@ -8,8 +8,9 @@
 	<ListView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:entries="@array/books"
 		android:divider="#f00"
 		android:dividerHeight="2px"
-		android:headerDividersEnabled="false"/>
+		android:entries="@array/books"
+		android:footerDividersEnabled="true"
+		android:headerDividersEnabled="false" />
 </LinearLayout>
